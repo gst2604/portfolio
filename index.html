@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal-portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ff49fb9af5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./gl.png" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p><span>B.TECH(CSE) STUDENT</span></p>
+                <h1><p>RAM RAM</p><span>I'm Gaurav Tiwari<br>from Graphic<br>Era Hill<br>University Bhimtal</span</h1>
+            </div>
+        </div>
+    </div>
+    <!-- -----------------about --------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./gc_auto_x2.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-titel">About Me</h1>
+                    <p><b><i>Hello, I'm Gaurav Tiwari, a dedicated B.Tech student with a passion for technology. As I navigate through the dynamic landscape of engineering, my curiosity is fueled by the ever-evolving world of technology. I find joy in unraveling the intricacies of this field, eager to contribute to its advancements. Join me on this journey where innovation meets determination, and together, we explore the limitless possibilities that technology has to offer.</i></b></p>
+                    <div class="tab-titel">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Technical Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contains active-tab" id="skills">
+                        <section>
+                            <div id="skils">
+                                <div class="skill-bar">
+                                    <div id="html">
+                                        <span class="skill-area">HTML</span>
+                                        <span class="percentage">100%</span>
+                                    </div>
+                                </div>
+                                <div class="skill-bar">
+                                    <div id="css">
+                                        <span class="skill-area">CSS</span>
+                                        <span class="percentage">70%</span>
+                                    </div>
+                                </div>
+                                <div class="skill-bar">
+                                    <div id="java">
+                                        <span class="skill-area">JAVA</span>
+                                        <span class="percentage">50%</span>
+                                    </div>
+                                </div>
+                                <div class="skill-bar">
+                                    <div id="js">
+                                        <span class="skill-area">JS</span>
+                                        <span class="percentage">50%</span>
+                                    </div>
+                                </div>
+                                <div class="skill-bar">
+                                    <div id="python">
+                                        <span class="skill-area">PYTHON</span>
+                                        <span class="percentage">85%%</span>
+                                    </div>
+                                </div>
+                                <div class="skill-bar">
+                                    <div id="c">
+                                        <span class="skill-area">C</span>
+                                        <span class="percentage">90%</span>
+                                    </div>
+                                </div>
+                                <div class="skill-bar">
+                                    <div id="cpp">
+                                        <span class="skill-area">CPP</span>
+                                        <span class="percentage">75%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        
+                    </div>
+                    <div class="tab-contains" id="Experience">
+                        <ul> <!-- write ur skills here -->
+                           <li><span>NO </span><br>------</li>
+                           <li><span>EXPERIENCE</span><br>----------</li>
+                           <li><span>YET</span><br>-----</li>
+                       </ul>
+                   </div>
+                   <div class="tab-contains" id="Education">
+                    <ul>
+                       <li><img src="./nur.jpg" alt="" class="n1"><span>NURSERY (2007-2008)</span><br>Adarsh Public School Kathgodam</li>
+                       <li><img src="./nirmala.jpeg" alt=""  class="n2"><span>INTERMEDIATE AND HIGH SCHOOL (2010-2022)</span><br>Nirmala Convent SR.SEC School Kathgodam</li>
+                       <li><img src="./graphic.png" alt=""  class="n3"><span>COLLAGE (2022-2026)</span><br>Graphic Era Hill University Bhimtall</li>
+                   </ul>
+               </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------- services ----------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-titel">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>WEB DESIGNING</h2>
+                    <p>Design the front-end page</p>
+                    <a href="https://www.linkedin.com/in/contactgaurav-tewari?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>CLONE DESIGNING</h2>
+                    <p>Any clone</p>
+                    <a href="https://www.linkedin.com/in/contactgaurav-tewari?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ">Learn more</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>LOGO DESIGNING</h2>
+                    <p>Creative logo's </p>
+                    <a href="https://www.linkedin.com/in/contactgaurav-tewari?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------portfolio--------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-titel">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>You can check my work on LinkedIn</p>
+                        <a href="https://www.linkedin.com/in/contactgaurav-tewari?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Achievement</h3>
+                        <p>My certificates are here to clear your confusion sir/mam</p>
+                        <a href="https://www.linkedin.com/in/contactgaurav-tewari?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "><i class="fa-solid fa-trophy"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Webinar</h3>
+                        <p>Attended the different and awesome webinar to enhance my knowledge</p>
+                        <a href="https://www.linkedin.com/in/contactgaurav-tewari?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "><i class="fa-solid fa-heart"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <!-- ---------------contact--------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-titel">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>tewarigaurav350@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>9997894253</p>
+                    <div class="social-icon">
+                        <a href="https://www.facebook.com/gaurav.tewari.7583?mibextid=PzaGJu"><i class="fa-brands fa-facebook" style="color: #1656c5;"></i></a>
+                        <a href="https://www.instagram.com/gaurav.tewari2604?utm_source=qr"><i class="fa-brands fa-instagram" style="color: #ea2a86;"></i></a>
+                        <a href="https://linksharing.samsungcloud.com/ny65O2OC77Y6"><i class="fa-brands fa-whatsapp" style="color: #1cd453;"></i></a>
+                        <a href="https://github.com/gst2604"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <!-- <a href="./my-cv.pdf" dowmload class="btn btn2">Download CV</a> -->
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" row="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copright">
+            <p>Copyright <i class="fa-sharp fa-solid fa-copyright"></i> gaurav <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontains = document.getElementsByClassName("tab-contains");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontain of tabcontains){
+                tabcontain.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");        }
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxyuGJGunBrkzePJORG8Lp1zMdTr-VoipP1xDQlDW457caRslR93hvvQVr8aH5qypgJ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "thank you"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
